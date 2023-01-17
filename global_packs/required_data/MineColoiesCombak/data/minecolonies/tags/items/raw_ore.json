@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:raw_iron",
+    "minecraft:raw_copper",
+    "minecraft:raw_gold",
+    "alltheores:raw_aluminum",
+    "alltheores:raw_iridium",
+    "alltheores:raw_lead",
+    "alltheores:raw_nickel",
+    "alltheores:raw_osmium",
+    "alltheores:raw_platinum",
+    "alltheores:raw_silver",
+    "alltheores:raw_tin",
+    "alltheores:raw_uranium",
+    "alltheores:raw_zinc"
+  ]
+}

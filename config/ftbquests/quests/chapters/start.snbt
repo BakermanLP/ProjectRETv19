@@ -1,0 +1,67 @@
+{
+	id: "3CEA493B3D2EE8DD"
+	group: ""
+	order_index: 0
+	filename: "start"
+	title: "Start"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mining Dimension"
+			x: 1.5d
+			y: 0.0d
+			description: ["Man kommt in die Mining Dimension, indem man im Chat \"/mining\" eingibt. Danach sollte man sich mehrere Sekunden nicht bewegen."]
+			id: "0A04184E8E99EDA6"
+			tasks: [{
+				id: "098F8A95A9AD78BB"
+				type: "dimension"
+				dimension: "lobby:mining_dimension"
+			}]
+			rewards: [{
+				id: "5BC5A4733F7A9088"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			title: "Fishing Dimension"
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: 0.0d
+			id: "20F11C64BD20E365"
+			tasks: [{
+				id: "4017EF716A683987"
+				type: "dimension"
+				icon: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				dimension: "lobby:fishing_dimension"
+			}]
+			rewards: [
+				{
+					id: "39EC349DBB38091C"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+				{
+					id: "2B8B712157276973"
+					type: "command"
+					title: "Go to Fish"
+					command: "/fishing"
+					player_command: false
+				}
+			]
+		}
+	]
+}
